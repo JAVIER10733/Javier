@@ -1,0 +1,22 @@
+{
+  "name": "java-bot-md",
+  "version": "1.0.0",
+  "description": "🤖 Bot WhatsApp MD modular y profesional",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "web": "node Web/server.js"
+  },
+  "author": "Ythan Javier",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "baileys": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
