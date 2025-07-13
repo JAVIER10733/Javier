@@ -1,0 +1,11 @@
+{
+  "openai": "tu_openai_key_aqui",
+  "removebg": "tu_removebg_key",
+  "weatherapi": "tu_clave_weather",
+  "youtube": "tu_api_youtube",
+  "tiktok": "tu_token_tiktok_api",
+  "translate": "tu_api_google_traductor",
+  "zeks": "zeks_api_key",
+  "zenz": "zenzapi_token",
+  "unsplash": "unsplash_access_key"
+}
