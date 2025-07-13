@@ -17,24 +17,9 @@ Bot de WhatsApp **Modular & Profesional**, desarrollado en **Node.js** usando la
 
 ---
 
-## 🧬 Estructura del Proyecto
-
-```bash
-java-bot-MD/
-├── index.js
-├── package.json
-├── .env
-├── README.md
-├── Dockerfile
-├── docker-compose.yml
-├── Web/                  # Servidor web + interfaz pública
-├── Session/              # Sesiones de Baileys MD
-├── src/
-│   ├── client/           # Conexión y manejo del cliente
-│   ├── commands/         # Comandos por categorías
-│   ├── events/           # Manejo de eventos (mensajes, grupos, llamadas)
-│   ├── middleware/       # Filtros: auth, cooldown, permisos
-│   ├── menus/            # Menús visuales: listas, botones, gif
-│   ├── services/         # APIs externas (OpenAI, YT, TikTok, Weather, etc)
-│   └── utils/            # Herramientas reutilizables
-└── media/                # Audios, imágenes, videos, stickers
+##instalacion
+''bahs
+git clone https://github.com/YTU-USERNAME/java-bot-MD
+cd java-bot-MD
+npm install
+npm start
