@@ -1,0 +1,14 @@
+{
+  "defaultPrefix": "!",
+  "language": "es",
+  "botName": "Javier-bot",
+  "maintenanceMode": false,
+  "globalCooldown": 3,
+  "autoWelcome": true,
+  "autoGoodbye": true,
+  "antilink": true,
+  "antifake": true,
+  "backupSchedule": "0 2 * * *", 
+  "enabledModules": ["admin", "fun", "economy", "ai", "media", "misc"],
+  "disabledCommands": ["shutdown", "eval"]
+}

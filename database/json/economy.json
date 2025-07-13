@@ -1,0 +1,16 @@
+{
+  "shop": [
+    { "id": "item_1", "name": "Espada de Madera", "price": 100, "type": "arma" },
+    { "id": "item_2", "name": "Poción de Vida", "price": 75, "type": "curación" },
+    { "id": "item_3", "name": "Escudo", "price": 150, "type": "defensa" }
+  ],
+  "transactions": [
+    {
+      "user": "123456789@s.whatsapp.net",
+      "type": "buy",
+      "item": "Espada de Madera",
+      "amount": 100,
+      "timestamp": "2025-07-07T13:00:00Z"
+    }
+  ]
+}
