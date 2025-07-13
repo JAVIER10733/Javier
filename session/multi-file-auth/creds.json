@@ -1,0 +1,8 @@
+module.exports = {
+  sessionName: "java-bot-md",
+  whatsappID: null,
+  useMultiFileAuth: true,
+  version: [2, 2412, 51],
+  loggerLevel: "silent", // "info", "debug", etc.
+  printQRInTerminal: true,
+};
