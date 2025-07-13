@@ -1,0 +1,28 @@
+-- Tabla: users
+CREATE TABLE IF NOT EXISTS users (
+  id TEXT PRIMARY KEY,
+  name TEXT,
+  registered_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  premium INTEGER DEFAULT 0,
+  banned INTEGER DEFAULT 0,
+  warns INTEGER DEFAULT 0,
+  language TEXT DEFAULT 'es',
+  level INTEGER DEFAULT 1,
+  xp INTEGER DEFAULT 0,
+  money INTEGER DEFAULT 0
+);
+
+-- Tabla: inventory
+CREATE TABLE IF NOT EXISTS inventory (
+  user_id TEXT,
+  item TEXT,
+  quantity INTEGER DEFAULT 1,
+  PRIMARY KEY (user_id, item)
+);
+
+-- Tabla: achievements
+CREATE TABLE IF NOT EXISTS achievements (
+  user_id TEXT,
+  achievement TEXT,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);

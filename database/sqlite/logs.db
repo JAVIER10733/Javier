@@ -1,0 +1,26 @@
+-- Tabla: command_logs
+CREATE TABLE IF NOT EXISTS command_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id TEXT,
+  command TEXT,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+  status TEXT,
+  message TEXT
+);
+
+-- Tabla: error_logs
+CREATE TABLE IF NOT EXISTS error_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  error TEXT,
+  location TEXT,
+  user TEXT,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabla: login_activity
+CREATE TABLE IF NOT EXISTS login_activity (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id TEXT,
+  action TEXT,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);

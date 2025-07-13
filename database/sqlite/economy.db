@@ -1,0 +1,28 @@
+-- Tabla: users_wallet
+CREATE TABLE IF NOT EXISTS users_wallet (
+  id TEXT PRIMARY KEY,
+  money INTEGER DEFAULT 0,
+  bank INTEGER DEFAULT 0,
+  last_work TIMESTAMP,
+  last_daily TIMESTAMP,
+  last_rob TIMESTAMP
+);
+
+-- Tabla: transactions
+CREATE TABLE IF NOT EXISTS transactions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id TEXT,
+  type TEXT,
+  amount INTEGER,
+  item TEXT,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabla: shop_items
+CREATE TABLE IF NOT EXISTS shop_items (
+  id TEXT PRIMARY KEY,
+  name TEXT,
+  description TEXT,
+  price INTEGER,
+  category TEXT
+);

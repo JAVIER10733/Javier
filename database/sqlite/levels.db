@@ -1,0 +1,13 @@
+-- Tabla: users_levels
+CREATE TABLE IF NOT EXISTS users_levels (
+  id TEXT PRIMARY KEY,
+  xp INTEGER DEFAULT 0,
+  level INTEGER DEFAULT 1,
+  last_message TIMESTAMP
+);
+
+-- Tabla: level_rewards
+CREATE TABLE IF NOT EXISTS level_rewards (
+  level INTEGER PRIMARY KEY,
+  reward INTEGER
+);
