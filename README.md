@@ -18,8 +18,8 @@ Bot de WhatsApp **Modular & Profesional**, desarrollado en **Node.js** usando la
 ---
 
 ##instalacion
-''bahs
-git clone https://github.com/YTU-USERNAME/java-bot-MD
-cd java-bot-MD
+```bash
+git clone https://github.com/Javier10733/javier
+cd javier
 npm install
 npm start
